@@ -1,0 +1,33 @@
+{
+  "logger": {
+    "logs_level": "all",
+    "logs_folder": "logs",
+    "logs_file": "application.log"
+  },
+  "server_infor": {
+    "address": "192.168.0.110",
+    "port": "8443",
+    "using_https": 0,
+    "proxy_connect": 0,
+    "http_proxy": "",
+    "timeout": 86400
+  },
+  "user": {
+    "email": "scanner@winstark.com",
+    "password": "WebVulnScan@12345"
+  },
+  "tool": {
+    "name":"metasploit",
+    "address":"127.0.0.1",
+    "port":3790,
+    "using_https": 1,
+    "proxy_connect": 0,
+    "http_proxy":"",
+    "username":"metasploit",
+    "token":"0f065b3c0f06331f2cbd311f359f3d21"
+  },
+  "application":{
+    "num_thread": 5,
+    "time_wait": 10
+  }
+}
